@@ -1,0 +1,6 @@
+def greet(name: str) -> str:
+    return f"سلام {name}! به پروژه نمونه خوش آمدی."
+
+if __name__ == "__main__":
+    user_name = input("نام خود را وارد کنید: ")
+    print(greet(user_name))
